@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&display=swap');
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.titletext {
+    font-size: 500%;
+}
+
+body {
+    background-color: #545454;
+}
