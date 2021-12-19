@@ -14,8 +14,8 @@ $(function () {
     messages2.push('anyone else');
 
 function cycle() {
-    $('#changingtext').html(messages[index]);
-    $('#changingtext2').html(messages2[index]);
+    document.getElementById("changingtext").innerHTML = messages[index];
+    document.getElementById("changingtext2").innerHTML = messages2[index];
     index++;
 
     if (index === messages.length) {
