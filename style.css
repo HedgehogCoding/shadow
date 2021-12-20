@@ -9,6 +9,10 @@ p {
 .titletext {
     font-size: 500%;
 }
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: darkred;
+}
 body {
     background-color: #545454;
 }
