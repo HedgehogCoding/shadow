@@ -44,7 +44,16 @@
     <br>
     <br>
 
-    <p>this is gus the server watermelon</p>
-    <img src="gus.jpg" width=25% height=25%>
+    <p id="gustxt">this is gus the server watermelon</p>
+    <img src="gus.jpg" id="gusimg" width=25% height=25%>
+    <br>
+    <button id="gusbtn" onclick="eat()">eat gus (do not press)</button>
+    <script>
+        function eat() {
+            document.getElementById("gusimg").parentNode.removeChild(document.getElementById("gusimg"));
+            document.getElementById("gustxt").innerHTML = "WHO ATE GUS 😭";
+            document.getElementById("gustxt").style.fontSize = "x-large";
+        }
+    </script>
 </body>
 </html>
