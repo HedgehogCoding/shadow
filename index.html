@@ -53,8 +53,16 @@
             document.getElementById("gusimg").parentNode.removeChild(document.getElementById("gusimg"));
             document.getElementById("gustxt").innerHTML = "WHO ATE GUS 😭";
             document.getElementById("gustxt").style.fontSize = "x-large";
-            new Audio('yum.mp3').play()
+            new Audio('yum.mp3').play();
             document.getElementById("gusbtn").parentNode.removeChild(document.getElementById("gusbtn"));
+
+            setTimeout(() => {
+                alert("the police are on their way to your house");
+                new Audio('police.wav').play();
+                new Audio('police.wav').play();
+                new Audio('police.wav').play();
+                new Audio('police.wav').play();
+            }, 5000);
         }
     </script>
 </body>
